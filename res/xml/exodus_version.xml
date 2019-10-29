@@ -21,11 +21,17 @@
     android:title="@string/exodus_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Exodus logo -->
+    <PreferenceScreen
+        android:layout="@layout/craftrom_logo"
+        android:key="craftrom_logo"
+        android:selectable="false" />
+
     <PreferenceCategory
         android:key="exodus_category"
         android:title="@string/exodus_title" />	
-		
-<!-- Exodus version -->
+	
+	<!-- Exodus version -->
     <Preference
         android:key="exodus_version"
         android:title="@string/exodus_version"
