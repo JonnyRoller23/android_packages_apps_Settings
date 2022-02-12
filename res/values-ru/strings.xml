@@ -5741,4 +5741,8 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"Устройство \"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>\" хочет подключиться к этому телефону.\n\nЭто ваше первое подключение к устройству \"<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>\"."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Не подключаться"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Подключиться"</string>
+    
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Управление музыкой</string>
+    <string name="volume_button_music_control_summary">Переключать музыкальные треки длительным нажатием кнопок громкости при выключенном экране</string>
 </resources>
