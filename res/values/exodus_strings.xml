@@ -21,6 +21,9 @@
     <string name="platform_revision">Platform</string>
     <string name="total_ram">Total RAM</string>
 	
+	<!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+	
 	<string name="exodus_title">About ExodusOS</string>
 	<string name="lineage_title">About LineageOS</string>
 	<string name="others_title">Others</string>
