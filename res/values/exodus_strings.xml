@@ -13,7 +13,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
 	<!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="exodus_version">ExodusOS version</string>
+    <string name="exodus_version">Version</string>
+	<string name="exodus_codename">Codename</string>
 	<!-- Exodus maintainer -->
     <string name="exodus_maintainer">Device Maintainer</string>
 	
@@ -37,7 +38,7 @@
    <string name="app_play_store">Google Play</string>
 
    <string name="exodus_title">About ExodusOS</string>
-   <string name="lineage_title">About LineageOS</string>
+  
    <string name="others_title">Others</string>
    <string name="exodus_footer">"The firmware is based on Lineage OS.\n\nWe have kept the main features of LOS, but also added a lot of new things."</string>
 </resources>

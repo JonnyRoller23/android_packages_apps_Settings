@@ -34,11 +34,18 @@
 	<!-- Exodus version -->
     <Preference
         android:key="exodus_version"
-        android:title="@string/exodus_version"
+        android:title="@string/exodus_codename"
         android:summary="@string/summary_placeholder"
 		android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.exodus.ExodusVersionDetailPreferenceController"/>
+
+    <Preference
+        android:key="lineage_version"
+        android:title="@string/exodus_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>		
 
     <!-- Exodus maintainer -->
     <Preference
@@ -49,35 +56,6 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.exodus.ExodusMaintainerPreferenceController"/>
 
-    <PreferenceCategory
-        android:key="lineage_category"
-        android:title="@string/lineage_title" />	
-		
-    <!-- Lineage version -->
-    <Preference
-        android:key="lineage_version"
-        android:title="@*lineageos.platform:string/lineage_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
-
-    <!-- Lineage API version -->
-    <Preference
-        android:key="lineage_api_version"
-        android:title="@*lineageos.platform:string/lineage_api_level"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageApiVersionPreferenceController"/>
-
-    <!-- Vendor security patch -->
-    <Preference
-        android:key="vendor_security_key"
-        android:title="@*lineageos.platform:string/lineage_vendor_security_patch"
-        android:selectable="false"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVendorSecurityPatchLevelPreferenceController"/>
- 
  <PreferenceCategory
         android:key="others_category"
         android:title="@string/others_title" />	
@@ -90,6 +68,14 @@
         android:selectable="false"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+
+    <!-- Vendor security patch -->
+    <Preference
+        android:key="vendor_security_key"
+        android:title="@*lineageos.platform:string/lineage_vendor_security_patch"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVendorSecurityPatchLevelPreferenceController"/>
 
     <!-- Build date -->
     <Preference
