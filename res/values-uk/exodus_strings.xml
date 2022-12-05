@@ -29,11 +29,7 @@
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s сьогодні</string>
-	
-	<!-- Quick unlock -->
-   <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
-   <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування після введення правильного PIN-коду/паролю</string>
-   
+	   
    <!-- Signal and WiFi icon style -->
    <string name="theme_customization_signal_icon_title">Стиль значка сигналу</string>
    <string name="theme_customization_signal_icon_summary">Встановити власний стиль значка сигналу</string>
