@@ -321,6 +321,11 @@ public class Settings extends SettingsActivity {
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
     /**
+     * Exodus Settings Activity
+     */
+    public static class ExodusSettingsActivity extends SettingsActivity {}
+
+    /**
      * Activity for AppDashboard.
      */
     public static class AppDashboardActivity extends SettingsActivity {}
