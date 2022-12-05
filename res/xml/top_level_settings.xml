@@ -43,7 +43,7 @@
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.exodus.settings.ExodusSettings"
         android:icon="@drawable/ic_exodus"
-        android:key="top_level_exodus_exodus"
+        android:key="top_level_exodus_settings"
         android:order="-135"
         android:title="@string/exodus_settings_dashboard_title"
         android:summary="@string/exodus_settings_dashboard_summary"
