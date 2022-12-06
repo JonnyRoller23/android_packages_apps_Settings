@@ -29,16 +29,19 @@
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
-   
+
    <!-- App details: open play store link if app is user installed -->
    <string name="app_play_store">Google Play</string>
 
-   <string name="exodus_title">About ExodusOS</string>
+    <!-- Exodus Settings on homepage -->
+    <string name="exodus_settings_dashboard_title">ExodusOS Settings</string>
+    <string name="exodus_settings_dashboard_summary">Welcome to the world of ExodusOS settings!</string>
+    <string name="menu_key_exodus">top_level_exodus_settings</string>
+	    
+    <string name="">Налаштування Exodus</string>
+    <string name="">Ласкаво просимо у світ налаштувань ExodusOS!</string>
 
-   <!-- Exodus Settings on homepage -->
-   <string name="exodus_settings_dashboard_title">ExodusOS Settings</string>
-   <string name="exodus_settings_dashboard_summary">>Welcome to the world of ExodusOS settings!</string>
-   <string name="menu_key_exodus">top_level_exodus_settings</string>
+   <string name="exodus_title">About ExodusOS</string>
   
    <string name="others_title">Others</string>
    <string name="exodus_footer">"The firmware is based on Lineage OS.\n\nWe have kept the main features of LOS, but also added a lot of new things."</string>
